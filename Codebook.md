@@ -18,11 +18,11 @@ R Script Varibles used in run.analysis.R
 
 Processed Data
 ==============
-name{activityData}
-alias{activityData}
-docType{data}
+name  activityData
+alias activityData
+docType data
 
-#Description
+*Description
 Output data from run.analysis.R script. This script merges various datasets, adds readable headers and does a number of jobs to provide a tidy dataset. Finally datset of the average by Activity and Subject of the tidy dataset is produced, consisting of the vectors below. 
 
 usage{data("activityData")}
@@ -119,7 +119,7 @@ format
     Subject                                       {a numeric vector}
 
 
-#Extract from feature.txt
+*Extract from feature.txt
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
 Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
@@ -161,7 +161,7 @@ tBodyGyroMean
 tBodyGyroJerkMean
 
 Transformations
-==============
+===============
 1. Download and extract the data, if it hasnt been done already.
 2. Get, load and combine trainig data
 3. Get, load and combine testing data
