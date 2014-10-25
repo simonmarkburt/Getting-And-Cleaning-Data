@@ -198,39 +198,22 @@ Transformations
 ===============
 
   1. Download and extract the data, if it hasnt been done already.
-  
   2. Get, load and combine trainig data
-  
   3. Get, load and combine testing data
-  
   4. Merge training and test sets together
-  
   5. Get & load Activity Labels data
-  
   6. Make activity labels more readable
-  
   7. Get headers for activity data from features.txt
-  
   8. Add columns for Activity and Subject
-  
   9. Extract required columns
-  
   10. Extract mean columns
-  
   11. Extract std columns
-  
   12. Extract Activity & Subject columns
-  
   13. Use the above extracted columns to get only columns to needed from activity data
-  
   14. Tidy column heading to be more readable
-  
   15. Change Activity column data to more meaniful descriptors based on tidied activity labels
-  
   16. Save finshed tidy data as file
-  
   17. Work out average of each variable for each activity and each subject
-  
   18. Save averaged data as file
   
 
